@@ -16,7 +16,10 @@ dependencies:
   glob: ^2.0.2
   isar: 
     version: 3.1.8
-    hosted: https://pub.isar-community.dev
+    git:
+      url: https://github.com/morpheushq/isar.git      
+      path: packages/isar
+      ref: v3
   path: ^1.8.1
   source_gen: ^1.2.2
   xxh3: ^1.0.1
