@@ -14,7 +14,10 @@ dependencies:
     sdk: flutter
   isar: 
     version: 3.1.8
-    hosted: https://pub.isar-community.dev
+    git:
+      url: https://github.com/morpheushq/isar.git
+      path: packages/isar
+      ref: v3
 
 flutter:
   plugin:
